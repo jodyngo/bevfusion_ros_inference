@@ -34,7 +34,7 @@ mkdir -p ~/bevfusion_ws/src/bevfusion_onnx/launch
 ```
 cd bevfusion_ws/src/bevfusion_onnx
 
-source /home/nvidia/bevfusion_ws/devel/setup.bash'
+source /home/nvidia/bevfusion_ws/devel/setup.bash
 
 Terminal 1: roscore
 

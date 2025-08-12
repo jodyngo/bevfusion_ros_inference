@@ -35,13 +35,13 @@ mkdir -p ~/bevfusion_ws/src/bevfusion_onnx/launch
 cd bevfusion_ws/src/bevfusion_onnx
 
 source /home/nvidia/bevfusion_ws/devel/setup.bash'
-```
+
 Terminal 1: roscore
 
 Terminal 2: rosrun bevfusion_onnx publish_data.py 
 
 Terminal 3: rosrun bevfusion_onnx bevfusion_onnx_node.py
-
+```
 
 The folder structure:
 ```

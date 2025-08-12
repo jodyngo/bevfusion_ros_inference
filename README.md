@@ -12,7 +12,7 @@ catkin_make --cmake-args -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 source /home/nvidia/bevfusion_ws/devel/setup.bash (replace with your local path)
 
 2. Create the ROS Package
-3. 
+
 cd ~/bevfusion_ws/src
 catkin_create_pkg bevfusion_onnx sensor_msgs roscpp rospy std_msgs
 
@@ -29,9 +29,10 @@ mkdir -p ~/bevfusion_ws/src/bevfusion_onnx/launch
 
 8. Create & Edit bevfusion_onnx.launch
 
-How to use:
+9. How to use:
 
 cd bevfusion_ws/src/bevfusion_onnx
+
 source /home/nvidia/bevfusion_ws/devel/setup.bash'
 
 Terminal 1: roscore
@@ -42,7 +43,7 @@ Terminal 3: rosrun bevfusion_onnx bevfusion_onnx_node.py
 
 
 The folder structure:
-'''
+
 bevfusion_ws/src/bevfusion_onnx/
 ├── CMakeLists.txt
 ├── package.xml
@@ -52,4 +53,4 @@ bevfusion_ws/src/bevfusion_onnx/
 ├── launch/
 │   └── bevfusion_onnx.launch
 ├── msg/
-'''
+

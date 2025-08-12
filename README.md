@@ -31,6 +31,8 @@ mkdir -p ~/bevfusion_ws/src/bevfusion_onnx/launch
 8. Create & Edit bevfusion_onnx.launch
 
 9. How to use:
+
+Download onnx model: [https://drive.google.com/drive/u/1/folders/15StjwFKHFwuxbykLVIQGm15vFytH3m6-]
 ```
 cd bevfusion_ws/src/bevfusion_onnx
 

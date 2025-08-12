@@ -2,7 +2,7 @@
 ROS inference node for BEVFusion
 
 # Installation
-
+```
 1. Set Up the Workspace
 
 mkdir -p ~/bevfusion_ws/src
@@ -41,9 +41,9 @@ Terminal 2: rosrun bevfusion_onnx publish_data.py
 
 Terminal 3: rosrun bevfusion_onnx bevfusion_onnx_node.py
 
-
+```
 The folder structure:
-
+```
 bevfusion_ws/src/bevfusion_onnx/
 ├── CMakeLists.txt
 ├── package.xml
@@ -53,4 +53,4 @@ bevfusion_ws/src/bevfusion_onnx/
 ├── launch/
 │   └── bevfusion_onnx.launch
 ├── msg/
-
+```

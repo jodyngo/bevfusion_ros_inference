@@ -6,6 +6,9 @@ ROS inference node for BEVFusion
 1. Set Up the Workspace
 ```
 mkdir -p ~/bevfusion_ws/src
+chmod -R u+rwx bevfusion_ws
+pip install empy==3.3.4   ### MUST
+
 cd ~/bevfusion_ws
 catkin_make clean
 catkin_make --cmake-args -DCMAKE_POLICY_VERSION_MINIMUM=3.5

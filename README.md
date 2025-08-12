@@ -42,6 +42,7 @@ Terminal 3: rosrun bevfusion_onnx bevfusion_onnx_node.py
 
 
 The folder structure:
+'''
 bevfusion_ws/src/bevfusion_onnx/
 ├── CMakeLists.txt
 ├── package.xml
@@ -51,3 +52,4 @@ bevfusion_ws/src/bevfusion_onnx/
 ├── launch/
 │   └── bevfusion_onnx.launch
 ├── msg/
+'''
